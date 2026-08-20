@@ -1,0 +1,33 @@
+# Arduino build artifacts
+build/
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.lss
+
+# Arduino IDE
+.idea/
+.vscode/
+arduino-cache/
+arduino_build_*/
+arduino-*
+*.ino.withsymbols/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local credentials / secrets
+.env
+secrets.h
+credentials.h
+config_local.h
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+~*
